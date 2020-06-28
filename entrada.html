@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Entrada de datos</title>
+    </head>
+    <body>
+        <form name="form1" id="form1" action="salida.php" method="POST">
+            <div>
+                <p><label>NIF</label></p>
+                <p><input type="text" name="nif" id="nif" required="required"></p>
+            </div>
+            <div>
+                <p><label>Apellidos</label></p>
+                <p><input type="text" name="apellidos" id="apellidos" required="required"></p>
+            </div>
+            <div>
+                <p><label>Nombre</label></p>
+                <p><input type="text" name="nombre" id="nombre" required="required"></p>
+            </div>
+            <div>
+                <p><label>Edad</label></p>
+                <p><input type="number" name="edad" id="edad" required="required" min="18"></p>
+            </div>
+            <div>
+                <input type="submit" value="Enviar Datos">
+            </div>
+        </form>
+    </body>
+</html>
